@@ -39,9 +39,10 @@ body {
 
 .recent-score-body {
   border: 2px solid grey;
-  width: 260px;
-  height: 200px;
+  width: 300px;
+  height: fit-content;
   border-radius: 5px;
+  padding: 9px;
 }
 
 .recent-score-body ul li {
@@ -91,4 +92,7 @@ button {
   border: 1px solid black;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
+  width: fit-content;
+  margin-top: 5px;
+  cursor: pointer;
 }

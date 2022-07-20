@@ -21,8 +21,8 @@
 To get a local copy up and running follow these simple example steps.
 
 - Clone repository in your local machine 
-- open `index.html` in your browser.
-- You can use live server.
+- run `npm install` in the terminal.
+- run `npn run start`.
 
 ## Live Demo
 
