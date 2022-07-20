@@ -37,6 +37,7 @@ body {
   font-size: 25px;
 }
 
+/* stylelint-disable */
 .recent-score-body {
   border: 2px solid grey;
   width: 300px;
