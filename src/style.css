@@ -15,6 +15,7 @@ body {
   padding: 1rem;
   width: 700px;
   height: 800px;
+  margin-left: 18rem;
 }
 
 .section .leaderboard-title {
@@ -44,7 +45,7 @@ body {
   height: 400px;
   border-radius: 5px;
   padding: 1px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .recent-score-body div:nth-child(odd) {
