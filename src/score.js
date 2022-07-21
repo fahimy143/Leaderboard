@@ -2,7 +2,7 @@ export const refreshScores = async () => {
   const scoresContainer = document.querySelector('.recent-score-body');
   scoresContainer.innerHTML = '';
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/U89UpEn5EXu1MQahYhm3/scores/',
   );
   const json = await response.json();
 
@@ -15,7 +15,7 @@ export const refreshScores = async () => {
 
 export const addScore = async (e) => {
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/U89UpEn5EXu1MQahYhm3/scores/',
     {
       method: 'POST',
       body: JSON.stringify({
